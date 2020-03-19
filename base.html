@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Makeup Universe</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Inicio</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Produtos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="batom.html">Batom</a></li>
+            <li><a href="base.html">Base</a></li>
+            <li><a href="sombra.html">Sombra</a></li>
+            <li><a href="rimel.html">Rímel</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contatos</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="cadastro.html"><span class="glyphicon glyphicon-user"></span> Cadastrar</a></li>
+        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<div style="position: relative; top: -15px;">
+
+    <h1 style="font-size: 100px; font-style: italic; position: relative; top: 50px; left: 550px; ">Base</h1>
+
+  <div class="w3-container" style="position: absolute; top: 400px; left: 200px;">
+    <h3 style="position: absolute; top: -200px; left: 10px;">Batom Matte</h3>
+    <h1 style="position: absolute; top: -180px; left: 10px;">  R$ 30,00</h1>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Comprar</button>
+    <img style="position: relative; top: -130px; left: -155px; border: 3px inset #aa01b9; border-radius: 8px;" src="https://static.natura.com/cdn/farfuture/toxDCJmgtYMQ8Vg1gEgEC4WJEYRq19fRl5WL5viB1vU/1584562469/sites/default/files/styles/medium/public/products/76642_1_2.jpg?itok=O_KEzy_a">
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+
+  
+        <form class="w3-container" action="/action_page.php">
+          <div class="w3-section">
+            <label><b>Nome Completo</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+            <label><b>CPF</b></label>
+            <input type="text" class="form-control cpf-mask" placeholder="Ex.: 000.000.000-00">
+            <label><b>CEP</b></label>
+            <input type="text" class="form-control cep-mask" placeholder="Ex.: 00000-000">
+            <label><b>Telefone</b></label>
+            <input type="text" class="form-control phone-ddd-mask" placeholder="Ex.: (00) 0000-0000">
+            <label><b>Cartão de Crédito</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="xxxx - xxxx - xxxx - xxxx" name="usrname" required>
+            
+            
+            <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Comprar</button>
+          </div>
+        </form>
+  
+        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-container" style="position: absolute; top: 400px; left: 485px;">
+    <h3 style="position: absolute; top: -200px; left: 3px;">Batom Líquido</h3>
+    <h1 style="position: absolute; top: -180px; left: 10px;">R$ 17,00</h1>
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Comprar</button>
+    <img style="position: relative; top: -130px; left: -155px; border: 3px inset #aa01b9; border-radius: 8px;" src="https://static.natura.com/cdn/farfuture/CnkN7CZ6WksBusDQpiPdqnGI-ujYrkCU-fmjm7yzGF4/1584562469/sites/default/files/styles/medium/public/products/54382_1_26.jpg?itok=Xa0xwFGX">
+    <div id="id01" class="w3-modal">
+    </div>
+  </div>
+
+
+  <div class="w3-container" style="position: absolute; top: 400px; left: 750px;">
+    <h3 style="position: absolute; top: -200px; left: 13px;">Gloss Labial</h3>
+    <h1 style="position: absolute; top: -180px; left: 9px;">R$ 15,00</h1>
+
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Comprar</button>
+    <img style="position: relative; top: -130px; left: -155px; border: 3px inset #aa01b9; border-radius: 8px;" src="https://static.natura.com/cdn/farfuture/u1BxMBlYRuAisIb9C6qTf-NvnZbBBIJbrBcPUWohbZw/1584562469/sites/default/files/styles/medium/public/products/92549_1_2.jpg?itok=TSyt7DBP">
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+  
+        <div class="w3-center"><br>
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+          <img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+        </div>
+  
+        <form class="w3-container" action="/action_page.php">
+          <div class="w3-section">
+            <label><b>Nome</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+            <label><b>Password</b></label>
+            <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+            <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+            <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+          </div>
+        </form>
+  
+        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+          <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-container" style="position: absolute; top: 400px; left: 1000px;">
+
+    <div style="position: relative; left: 20px;">
+    <h3 style="position: absolute; top: -200px; left: -55px;">Batom Hidratante</h3>
+    <h1 style="position: absolute; top: -180px; left: -30px;">R$ 35,00</h1>
+    </div>
+
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-green w3-large">Comprar</button>
+    <img style="position: relative; top: -130px; left: -155px; border: 3px inset #aa01b9; border-radius: 8px;" src="https://static.natura.com/cdn/farfuture/m6SbTeTZiIFhUtbMcyXQCZ79w12LhA_saHrZg_qUC7M/1582891414/sites/default/files/styles/medium/public/products/92531_1_8.jpg?itok=QPe3DV5h">
+    <div id="id01" class="w3-modal">
+      <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="max-width:600px">
+  
+        <div class="w3-center"><br>
+          <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-xlarge w3-hover-red w3-display-topright" title="Close Modal">&times;</span>
+          <img src="img_avatar4.png" alt="Avatar" style="width:30%" class="w3-circle w3-margin-top">
+        </div>
+  
+        <form class="w3-container" action="/action_page.php">
+          <div class="w3-section">
+            <label><b>nome</b></label>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" placeholder="Enter Username" name="usrname" required>
+            <label><b>Password</b></label>
+            <input class="w3-input w3-border" type="password" placeholder="Enter Password" name="psw" required>
+            <button class="w3-button w3-block w3-green w3-section w3-padding" type="submit">Login</button>
+            <input class="w3-check w3-margin-top" type="checkbox" checked="checked"> Remember me
+          </div>
+        </form>
+  
+        <div class="w3-container w3-border-top w3-padding-16 w3-light-grey">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-red">Cancel</button>
+          <span class="w3-right w3-padding w3-hide-small">Forgot <a href="#">password?</a></span>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+</div>
+ 
+</body>
+</html>
